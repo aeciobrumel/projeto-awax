@@ -48,7 +48,88 @@ header {
 ul li a:hover {
   border-bottom: 5px solid #aa7c4b;
 }
+ul li .active {
+  border-bottom: 5px solid #aa7c4b;
+}
 ul {
   display: flex;
   flex-direction: row;
+}
+.banner {
+  background: url("../complementos/bg.jpg");
+  height: calc(100vh - 100px);
+  background-size: cover;
+  background-position: bottom;
+}
+.banner .slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  width: 100vw;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  padding-top: 10px;
+  font-size: 20px;
+}
+.button {
+  display: flex;
+
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-top: 25px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 100px;
+  color: white;
+  background-color: #aa7c4b;
+}
+
+.slider h1 span {
+  color: #aa7c4b;
+}
+.banner .sliders {
+  display: flex;
+  width: 1000vh;
+  height: 100%;
+  overflow: hidden;
+}
+.slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: inline-block;
+  height: 100%;
+  width: 100vw;
+}
+.slider-pointers {
+  position: absolute;
+  width: 100vw;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -50px;
+}
+.pointers {
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50px;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #aa7c4b;
 }
