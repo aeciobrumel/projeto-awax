@@ -23,6 +23,7 @@ header {
   width: 80px;
   height: 80px;
   background-color: #aa7c4b;
+  border-radius: 50px;
 }
 .menu {
   display: flex;
@@ -244,7 +245,8 @@ estilos de cada sessão
 
   text-decoration: none;
   list-style-type: none;
-  padding: 20px;
+  padding: 16px 20px;
+  padding-top: 20px;
   text-transform: uppercase;
 }
 .section-projets--filters ul li:last-child {
@@ -252,5 +254,43 @@ estilos de cada sessão
 }
 .section-projects--photos {
   display: flex;
-  max-width: ;
+  width: 100vh;
+  max-width: 1140px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 30px;
+}
+.section-projects--photo {
+  width: 280px;
+}
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 260px;
+  height: 165px;
+  margin: 10px;
+  color: white;
+}
+.photoinfo {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.photoinfo h5 {
+  font-size: 18px;
+}
+.photo-container img {
+  width: inherit;
+  height: inherit;
+}
+.photo-container:hover .photoinfo {
+  display: flex;
 }
