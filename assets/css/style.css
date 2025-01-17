@@ -22,8 +22,9 @@ header {
 .logoimg {
   width: 80px;
   height: 80px;
-  background-color: #aa7c4b;
-  border-radius: 50px;
+
+  border: 40px solid;
+  border-color: transparent #aa7c4b transparent #aa7c4b;
 }
 .menu {
   display: flex;
