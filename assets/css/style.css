@@ -393,3 +393,164 @@ estilos de cada sessão
   height: 15px;
   border: 2px solid #aa7c4b;
 }
+.section-clients-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+  height: inherit;
+}
+.client-img {
+  display: flex;
+  justify-content: center;
+}
+.client-role {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+.client-role h5 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+.client-declaration {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.client-declaration p {
+  text-align: center;
+  padding: 25px;
+  color: #acacac;
+}
+.section-clients-area .slider-pointers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  left: 0;
+  padding: 40px;
+}
+
+.section-clients-area .pointers {
+}
+.bg-grey {
+  background-color: #f7f7f7;
+  border: 0.5px solid #cfcfcf;
+}
+.banner-clients {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.banner-clients img {
+  margin: 50px;
+}
+.section-products-area {
+}
+.section-products {
+  max-width: 1140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product {
+  background-color: #fff;
+  width: 250px;
+  height: 350px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.product-name {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.product-price {
+  font-size: 24px;
+  font-weight: 600;
+}
+.product-period {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #7f7f7f;
+  padding-bottom: 15px;
+}
+.product-results {
+  font-size: 11px;
+  color: #363636;
+}
+.product a {
+  padding: 12px 30px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #373737;
+}
+.product a:hover {
+  background-color: #aa7c4b;
+}
+
+.section-features {
+  display: flex;
+  max-width: 1140px;
+  justify-content: space-evenly;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+.section-features-left {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.section-features-right {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.feature-name {
+  display: flex;
+  flex-direction: row;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+.feature-name h4 {
+  padding-left: 30px;
+}
+.feature-name::before {
+  content: url(/assets/icones/check.png);
+  display: flex;
+  flex-direction: row;
+}
+.upper {
+  text-transform: uppercase;
+}
+.feature-content {
+  color: #373737;
+  font-size: 14px;
+  padding-left: 65px;
+  flex-wrap: wrap;
+}
+
+/*
+<div class="feature">
+              <div class="feature-name">secont feature
+              </div>
+              <div class="feature-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus magni voluptatum a quibusdam quasi asperiores maiores lab</div>
+            </div>
+
+
+*/
