@@ -94,12 +94,17 @@ h2 {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 12px;
   margin-top: 25px;
-  padding: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
   border-radius: 100px;
   color: white;
+  background-color: #aa7c4b;
+}
+.active {
   background-color: #aa7c4b;
 }
 
@@ -192,16 +197,13 @@ estilos de cada sessão
   line-height: 25px;
   padding-right: 10px;
 }
-
 .section-aboutus-right {
   width: 400px;
 }
-
 .section-aboutus-right a img {
   width: 100%;
   box-shadow: 0px 5px 10px #333;
 }
-
 .section-services {
   display: flex;
   overflow: hidden;
@@ -437,8 +439,6 @@ estilos de cada sessão
   padding: 40px;
 }
 
-.section-clients-area .pointers {
-}
 .bg-grey {
   background-color: #f7f7f7;
   border: 0.5px solid #cfcfcf;
@@ -451,8 +451,6 @@ estilos de cada sessão
 }
 .banner-clients img {
   margin: 50px;
-}
-.section-products-area {
 }
 .section-products {
   max-width: 1140px;
@@ -539,18 +537,171 @@ estilos de cada sessão
   text-transform: uppercase;
 }
 .feature-content {
-  color: #373737;
+  color: #d8d8d8;
   font-size: 14px;
   padding-left: 65px;
   flex-wrap: wrap;
 }
+.section-features-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.section-features-button {
+  height: 180px;
+
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-features-button .slider-pointers {
+  padding-bottom: 30px;
+}
+
+.section-features-button .button {
+  margin-top: 50px;
+}
+.section-facts {
+  display: flex;
+}
+.section-fact {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section-fact h2 {
+  color: #aa7c4b;
+  font-size: 38px;
+}
+.section-fact .underline {
+  width: 15px;
+  height: 3px;
+  background-color: #7f7f7f;
+  margin-bottom: 5px;
+}
+.section-fact h4 {
+  text-transform: uppercase;
+  flex-wrap: wrap;
+  max-width: 160px;
+  min-height: 50px;
+}
+.section-fact:nth-child(3) h4 {
+  max-width: 140px;
+}
+.banner-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid #ccc;
+}
+.share {
+  display: flex;
+  align-items: center;
+}
+.share h5 {
+  text-transform: uppercase;
+  color: #aeaeae;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.social-icon-area {
+  display: flex;
+  align-items: center;
+}
+.social-icon-area p {
+  font-weight: 800;
+  font-size: 10px;
+  padding-left: 5px;
+  padding-right: 30px;
+  color: #aeaeae;
+}
+
+.twitter {
+  background-color: #32c6ee;
+}
+.linkedin {
+  background-color: #127db5;
+}
+.facebook {
+  background-color: #336296;
+}
+.googleplus {
+  background-color: #e64237;
+}
+.pinterest {
+  background-color: #b71c29;
+}
+
+.section-forn {
+  max-width: 900px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+.input-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-button input:nth-child(2) {
+  margin-top: 40px;
+}
+input {
+  border: hidden;
+  border-bottom: 2px solid #aeaeae;
+  background-color: #f7f7f7;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+input::placeholder {
+  text-transform: uppercase;
+  color: #aeaeae;
+  font-weight: 500;
+}
+.contact-form {
+  border: hidden;
+}
+.contact-button {
+  display: flex;
+  justify-content: center;
+}
 /*
-<div class="feature">
-              <div class="feature-name">secont feature
-              </div>
-              <div class="feature-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus magni voluptatum a quibusdam quasi asperiores maiores lab</div>
-            </div>
+    <div class="section-body">
+          <div class="section-form">
+            <form action="" >
 
+              <fieldset class="contact-form">
+                <div class="input-top">
+                <input type="text" name="name" placeholder="name">
+                <input type="text" name="email" placeholder="email">
+                </div>
+                <div class="input-button">
+                <input type="text" name="subject" placeholder="subject">
+                <input type="text" name="message" placeholder="message">
+                </div>
+              </fieldset>
+
+            </form>
+
+          </div>
+          <div class="button" in> Send message</div>
 
 */
