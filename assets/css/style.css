@@ -104,7 +104,8 @@ h2 {
   color: white;
   background-color: #aa7c4b;
 }
-.active {
+
+.slider-pointers .active {
   background-color: #aa7c4b;
 }
 
@@ -670,6 +671,7 @@ input {
   padding-bottom: 10px;
   margin-right: 20px;
   margin-bottom: 30px;
+  box-decoration-break: unset;
 }
 input::placeholder {
   text-transform: uppercase;
@@ -683,25 +685,68 @@ input::placeholder {
   display: flex;
   justify-content: center;
 }
+.section-map {
+  background-image: url("/assets/icones/mapa.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+.section-map-area {
+  width: 100vw;
+  max-width: 1140px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.section-map-desc {
+  background-color: #fff;
+  width: 50%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgba(137, 136, 136, 0.5);
+}
+.section-map-icon-area {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  padding: 5px;
+}
+.section-map-icon-area p {
+  padding-left: 15px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.section-map-icon {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+
 /*
-    <div class="section-body">
-          <div class="section-form">
-            <form action="" >
+   <section class="section-map">
+        <div class="section-map-area">
 
-              <fieldset class="contact-form">
-                <div class="input-top">
-                <input type="text" name="name" placeholder="name">
-                <input type="text" name="email" placeholder="email">
-                </div>
-                <div class="input-button">
-                <input type="text" name="subject" placeholder="subject">
-                <input type="text" name="message" placeholder="message">
-                </div>
-              </fieldset>
-
-            </form>
-
+          <div class="section-map-desc">
+            <div class="section-map-icon-area">
+              <div class="section-map-icon">
+                <img src="/assets/icones/carta.png" alt="">
+              </div>
+              <p>Po Boc 1235 Rua joão de barro, Pomerode SC</p>
+            </div>
           </div>
-          <div class="button" in> Send message</div>
+
+        </div>
+
+      </section>
 
 */
