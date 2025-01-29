@@ -808,21 +808,172 @@ footer {
   margin: 0px;
   padding: 15px 40px;
 }
-/*
 
-          </div>
-          <div class="footer-text footer-content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio cum nostrum amet molestiae rem nam accusantium sequi sit voluptates laudantium, velit minus officiis culpa. Ipsum mollitia maiores maxime commodi Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, sint, nemo velit beatae obcaecati voluptatibus est cumque earum non omnis, natus laboriosam esse hic cum ratione voluptatum similique nisi placeat.</p>
-          </div>
-          <div class="footer-subscribe footer-content">
-            <input type="text" name="email-subscribe" placeholder="email to subscribe">
-            <div class="footer-button">
-              <a href="" class="button">Subscribe</a>
-            </div>
-          </div>
-        
-        </div>
-      </footer>
-    
+@media (min-width: 450px) and (max-width: 800px) {
+  .menu {
+    display: flex;
+  }
+  .menu nav ul li a {
+    z-index: 99;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 27px;
+    color: white;
+    border-bottom: 0;
+    display: flex;
+    height: 80px;
+  }
+  nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    margin-left: 30px;
+  }
+  ul li a:hover {
+    border-bottom: 0;
+  }
+
+  .menu nav ul li .active {
+    color: #aa7c4b;
+  }
+  nav {
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: calc(100vw - 100px);
+    display: flex;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 80vh;
+    top: 100px;
+  }
+
+  ul li .active {
+    border-bottom: 5px solid #aa7c4b;
+  }
+  .default .section-body {
+    max-width: 600px;
+  }
+  .section-aboutus {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-aboutus-right {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-aboutus-left a {
+    margin-bottom: 20px;
+  }
+  .section-aboutus-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-service:first-child {
+    border: 0;
+  }
+  .section-service {
+    border: 0;
+    min-width: 50%;
+  }
+  .section-services {
+    flex-wrap: wrap;
+  }
+
+  .section-projets--filters {
+  }
+
+  .section-projets--filters ul {
+    flex-wrap: wrap;
+  }
+
+  .section-projets--filters ul li {
+    border-bottom: 4px solid #ededed;
+
+    flex: 1;
+  }
+
+  .section-projects--photos {
+    max-width: 600px;
+  }
+  .section-team .sliders {
+    width: 600px;
+    justify-content: start;
+  }
+
+  .banner-clients {
+    max-width: 600px;
+    flex-wrap: wrap;
+  }
+
+  .section-products {
+    max-width: 600px;
+    flex-wrap: wrap;
+  }
+  .section-facts {
+    max-width: 600px;
+    flex-wrap: wrap;
+  }
+  .section-fact {
+    min-width: 50%;
+  }
+
+  .section-map-desc {
+    width: auto;
+    margin: 30px;
+  }
+  .footer-area {
+    flex-direction: column;
+  }
+  .footer-social {
+    flex-direction: row;
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 450px) {
+}
+
+/*
+.section-team {
+  overflow: hidden;
+}
+.section-team-area {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: inherit;
+  overflow: hidden;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-team .sliders {
+  display: flex;
+  width: 1140px;
+  height: 100%;
+  justify-content: center;
+}
+.section-team .slider {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 380px;
+  margin: 15px;
+  width: 280px;
+  border-radius: 5px;
+  justify-content: space-around;
+  padding-top: 25px;
+  align-items: center;
+  flex-direction: column;
+  color: #000000;
+}
 
 */
