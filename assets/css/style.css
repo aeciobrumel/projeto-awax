@@ -935,6 +935,10 @@ footer {
     max-width: 600px;
     flex-wrap: wrap;
   }
+  .section-features {
+    flex-wrap: wrap;
+    max-width: 400px;
+  }
   .section-facts {
     max-width: 600px;
     flex-wrap: wrap;
@@ -1070,10 +1074,7 @@ footer {
   .section-products {
     flex-wrap: wrap;
   }
-  .section-features {
-    flex-wrap: wrap;
-    max-width: 400px;
-  }
+
   .section-facts {
     max-width: 400px;
     flex-wrap: wrap;
@@ -1136,7 +1137,7 @@ footer {
     height: 550px;
   }
   .footer-area {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 }
 /*
